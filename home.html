@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Shop By Team Master Mind</title>
+
+<link rel="icon" type="img/icon" href="image/favicon.png">
+
+    <!-- Code for font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Code for font awesome cdn -->
+
+    <!-- Code for linking css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Code for linking css file -->
+
+
+    <!-- Code for linking meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Code for linking meta tag -->
+
+     
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+
+
+</head>
+<body>
+<!-- Header Section -->
+<header class="header"> 
+    <a href="#" class="logo"> <i class="fa fa-shopping-basket" aria-hidden="true"></i>  Amar Shop </a>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#">Special-products</a>
+                <ul class="submenu">
+                    <li><a href="#">Dhaka</a>
+                        <ul class="submenu2">
+                            <li><a href="dhaka.html">Dhaka</a></li>
+                            <li><a href="tangail.html">Tangail</a></li>
+                            <li><a href="faridpur.html">Faridpur</a></li>
+                            <li><a href="golapgonj.html">Gopalgonj</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Barishal</a>
+                        <ul class="submenu2">
+                            <li><a href="barishal.html">Barishal</a></li>
+                            <li><a href="#">Bagura</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Mymensingh</a>
+                        <ul class="submenu2">
+                            <li><a href="#">Mutkagasa</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Chottogram</a>
+                        <ul class="submenu2">
+                            <li><a href="noakhali.html">Noakhali</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="messageus.html">Message Us</a></li>
+        </ul>
+    </nav>
+
+<div class="icons">
+    <div class="fa fa-bars" id="menu-btn"> </div>
+    <div class="fa fa-search" id="search-btn"> </div>
+    <div class="fa fa-shopping-cart" id="cart-btn"> </div>
+    <div class="fa fa-user" id="login-btn"> </div>
+    
+     
+</div>
+
+<form class="search-form">
+    <input type="search" id="search-box" placeholder="Search here.......">
+    <label for="search-box" class="fa fa-search">
+
+    </label>
+</form>
+<div class="shopping-cart"> 
+    <div id="root"></div>
+        <div class="head"><p> Your cart </p></div>
+        <div id="cartItem">Your cart is Empty</div>
+        <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total"> $0.00</h2>
+    </div>
+    <a href="#" class="btn">Checkout </a>
+</div>
+
+
+
+
+<form action = "#" class = "login-form">
+    <h3>login form</h3>
+    <input type ="email" name="email" placeholder="Enter your email" class ="box" required>
+    <input type ="password" placeholder="Enter your password" class ="box">
+
+    <p>Fogot your password <a href="#">CLick here</a></p>
+    <p>DOnt't Have An Account <a href="#">Create New</a></p>
+
+    <input type = "Submit" value = "Login now" class ="btn">
+
+</form>
+
+</header>
+<!-- Header Section -->
+
+<!-- Banner Section -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Your needs in <span>Just</span> One Place</h3>
+        <p>This website made by Team MasterMind</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+
+<section class="features" id="features">
+    <h1 class="headings">Our <span>Features</span></h1>
+    <div class="box-container">
+    <div class="box">
+        <img src="image/feature-img-1.png">
+        <h3>Fresh And Organic</h3>
+        <p>We provide 100% fresh and organic product to you .</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+
+    <div class="box">
+        <img src="image/feature-img-2.png">
+        <h3>Free Delivery</h3>
+        <p>Free & Fast delivery</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+
+    <div class="box">
+        <img src="image/payment feature.png">
+        <h3>Easy Payment</h3>
+        <p>Easy To Pay</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+
+   </div>
+  </section>
+
+<!-- Features Section -->
+
+<!-- Categories Section -->
+
+<section class="categories" id="categories">
+    <h1 class="headings">Product <span>Categories</span></h1>
+   <div class="box-container">
+    <div class="box">
+        <img src="newimage/TANGAIL DISTRICT/images.jpg">
+        <h3>Saree</h3>
+        <p>upto 30% off</p>
+        <a href="sari.html" class="btn">Shop now</a>
+    </div>
+
+    <div class="box">
+        <img src="newimage/TANGAIL DISTRICT/TANGAIL FOOD CATAGORY.jpg">
+        <h3>Sweets</h3>
+        <p>upto 10% off</p>
+        <a href="food.html" class="btn">Shop now</a>
+    </div>
+
+    <div class="box">
+        <img src="image/cat-3.png">
+        <h3>Drinks</h3>
+        <p>upto 15% off</p>
+        <a href="drinks.html" class="btn">Shop now</a>
+    </div>
+
+    <div class="box">
+        <img src="image/cat-4.png">
+        <h3>Cooking products</h3>
+        <p>upto 15% off</p>
+        <a href="cooking.html" class="btn">Shop now</a>
+    </div>
+
+
+   </div>
+</section>
+
+
+<!-- Categories Section -->
+
+
+<!-- Product Section -->
+
+<section class="products" id="products">
+    <h1 class="headings">Our <span>Products</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+        
+            <div class="swiper-slide box">
+                <img src="newimage/FARIDPUR DISTRICT/cushi pitha.jpg">
+                <h1>Cushi pitha</h1>
+                <div class="Price">Tk. 199</div>
+                <a href="" class="p-btn">add to cart</a>
+
+            </div>
+        <div class="swiper-slide box">
+            <img src="newimage/FARIDPUR DISTRICT/DUDH CITOI PITHA.jpg">
+            <h1>Dud Pitha</h1>
+            <div class="Price">Tk.199</div>
+            <a href="" class="p-btn">add to cart</a>
+            </div>
+        
+        <div class="swiper-slide box">
+            <img src="newimage/FARIDPUR DISTRICT/FARIDPUR SPECIAL KHEJURER GUR.jpg">
+            <h1>Special khejur Gur</h1>
+            <div class="Price">Tk.333</div>
+            <a href="" class="p-btn">add to cart</a>
+            </div>
+
+        <div class="swiper-slide box">
+            <img src="newimage/FARIDPUR DISTRICT/mugpakon pitha.jpg">
+            <h1>Mugpakon pitha</h1>
+            <div class="Price">Tk. 199</div>
+            <a href="" class="p-btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="newimage/FARIDPUR DISTRICT/ROSOGOLLA.png">
+                <h1>Special Rosogolla</h1>
+                <div class="Price">Tk. 699</div>
+                <a href="" class="p-btn">add to cart</a>
+            </div>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="swiper product-slider">
+            <div class="swiper-wrapper">
+            
+                <div class="swiper-slide box">
+                    <img src="newimage/GOPALGANJ DISTRICT/CHANAR JILAPI.jpg">
+                    <h1>Jilapi</h1>
+                    <div class="Price">Tk. 199</div>
+                    <a href="" class="p-btn">add to cart</a>
+    
+                </div>
+            <div class="swiper-slide box">
+                <img src="newimage/TANGAIL DISTRICT/TANGAIL SARI 4.jpg">
+                <h1>Saree</h1>
+                <div class="Price">Tk. 1299</div>
+                <a href="" class="p-btn">add to cart</a>
+                </div>
+            
+            <div class="swiper-slide box">
+                <img src="newimage/TANGAIL DISTRICT/KALIDASHER SONDESH.jpg">
+                <h1>Sondes</h1>
+                <div class="Price">Tk. 499</div>
+                <a href="" class="p-btn">add to cart</a>
+                </div>
+    
+            <div class="swiper-slide box">
+                <img src="newimage/DHAKA DISTRICT/BIRIYANI.jpg">
+                <h1>BIRIYANI</h1>
+                <div class="Price">Tk. 190</div>
+                <a href="" class="p-btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="newimage/DHAKA DISTRICT/CHICKEN BIRIYANI.jpg">
+                <h1>Chicken Biriyani</h1>
+                <div class="Price">Tk. 290</div>
+                <a href="" class="p-btn">add to cart</a>
+                </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+<!-- Product Section -->
+
+
+
+
+<!-- Review section -->
+<section class="review" id="review">
+    <h1 class="headings">Customer's <span>Review</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">    
+     <div class="swiper-slide box">
+                <img src="image/pic-1.png">
+                <p>
+                    Product Quallity is very good.
+                </p>
+                <h3>Fahiz Siddiq</h3>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star-half checked"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png">
+                <p>
+                    Satisfactory.
+                </p>
+                <h3>Adnan Rony</h3>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png">
+                <p>
+                    Excellent.
+                </p>
+                <h3>Wahid</h3>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.jpg">
+                <p>
+                    loved there Service.
+                </p>
+                <h3>Econ</h3>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star-half checked"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png">
+                <p>
+                    Product Quallity is very good.
+                </p>
+                <h3>Wahid</h3>
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+     </div>
+    </div>
+</section>
+
+<!-- Review section -->
+
+<!-- Blog section -->
+<section class="blogs" id="blogs">
+    <h1 class="headings">Our <span>Blog's</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/blog-1.png">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i>By User</a>
+                     <a href="#"><i class="fa fa-calendar"></i>1st May, 2021</a>
+                </div>
+                <h3>Fresh And Organic Fruits</h3>
+                <p>Fresh Fruit</p>
+                <a href="#"class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/blog-2.png">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i>By User</a>
+                     <a href="#"><i class="fa fa-calendar"></i>1st May, 2021</a>
+                </div>
+                <h3>Fresh And Organic Vegitable </h3>
+                <p>Fresh Vegitable</p>
+                <a href="#"class="btn">Read More</a>
+            </div>
+        </div>
+         <div class="box">
+            <img src="image/blog-3.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i>By User</a>
+                     <a href="#"><i class="fa fa-calendar"></i>1st May, 2021</a>
+                </div>
+                <h3>Fresh And Organic Vegitable </h3>
+                <p>Fresh Vegitable</p>
+                <a href="#"class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Blog section -->
+
+<!-- footer section -->
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Amar Shop<i class="fa fa-shopping-basket"></i></h3>
+            <p>Feel Free To Follow Us Our Social MEdia hadlers all the given Links Are Given below</p>
+            <div class="share">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+          <div class="box">
+            <h3>Contact info</h3>
+            <a href="#" class="links"><i class="fa fa-phone"></i>016445578</a>
+
+             <a href="#" class="links"><i class="fa fa-phone"></i>016433338</a>
+
+              <a href="#" class="links"><i class="fa fa-envelope"></i>amarshop@gmail.com</a>
+
+               <a href="#" class="links"><i class="fa fa-map-marker"></i>khagan,dhaka,bangladesh</a>
+           
+            </div>
+             <div class="box">
+            <h3>Quick links</h3>
+            <a href="home.html" class="fa fa-links"><i class="fa fa-arrow-right"></i>Home</a>
+               <a href="#features" class="fa fa-links"><i class="fa fa-arrow-right"></i>Features</a>
+                  <a href="product.html" class="fa fa-links"><i class="fa fa-arrow-right"></i>Product</a>
+                     <a href="#categories" class="fa fa-links"><i class="fa fa-arrow-right"></i>Categories</a>
+                        <a href="#review" class="fa fa-links"><i class="fa fa-arrow-right"></i>Review</a>
+                         <a href="#blogs" class="fa fa-links"><i class="fa fa-arrow-right"></i>Blogs</a>
+           
+            </div>
+             <div class="box">
+            <h3>News letter</h3>
+           <p>Subscribe for latest update</p>
+           <input type="email" placeholder="Your Email" class="email">
+           <input type="submit" value="Subscribe" class="btn">
+           <img src="image/payment.png" class="payment-img"> 
+            </div>
+    </div>
+
+  <div class="credit">&copy; All Right Reserved By <span>Team MasterMind</span> </div>  
+</section>
+
+
+<!-- footer section -->
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"> </script>
+
+</body>
+</html>
+
